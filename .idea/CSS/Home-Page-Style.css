@@ -1,0 +1,54 @@
+
+:root {
+    --BackgroundColor: #001a33;
+    --TextColor: #eefbfb;
+    --HoverColor: #003565;
+}
+
+
+
+
+.MainBody {
+    background-color: var(--BackgroundColor);
+    color: var(--TextColor);
+}
+
+.TopNav {
+    display: inline-grid;
+    width: 100%;
+    height: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow: wrap;
+    text-align: center;
+    align-items: center;
+    /*border-bottom: 1px solid var(--HoverColor);*/
+}
+
+.TopNav h1 {
+
+}
+
+.TopNav h2 {
+
+}
+
+.TopNav h3 {
+    text-decoration: none;
+    text-align: right;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.TopNav h3:hover {
+    background-color: var(--HoverColor);
+    cursor: pointer;
+}
+
+.TopNav li{
+    display: inline;
+}
+.UnderLine {
+    width: 100%;
+    border-bottom: 2px solid var(--HoverColor);
+}
