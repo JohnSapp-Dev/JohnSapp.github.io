@@ -14,7 +14,7 @@
 }
 
 .TopNav {
-    display: inline-grid;
+   display: inline-grid;
     width: 100%;
     height: 50px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -32,7 +32,9 @@
 
 }
 
-.TopNav h3 {
+.TopNav a {
+    color: var(--TextColor);
+    font-size: large;
     text-decoration: none;
     text-align: right;
     padding: 10px;
@@ -40,7 +42,7 @@
     justify-content: flex-end;
 }
 
-.TopNav h3:hover {
+.TopNav a:hover {
     background-color: var(--HoverColor);
     cursor: pointer;
 }
