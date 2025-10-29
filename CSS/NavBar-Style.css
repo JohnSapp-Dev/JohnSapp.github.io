@@ -1,0 +1,64 @@
+
+:root {
+    --ActiveColor: #78abdc;
+}
+
+.TopNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    display: inline-grid;
+    background-color: var(--NavColor);
+    width: 100%;
+    height: auto;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    /*padding: 15px;*/
+    /*border-bottom: 1px solid var(--HoverColor);*/
+}
+
+.TopNav h1 {
+    margin: 0;
+
+
+}
+
+/*.TopNav h2 {*/
+/*    margin: 0;*/
+/*}*/
+
+.TopNav a {
+    color: var(--TextColor);
+    margin: 0;
+    font-size: large;
+    text-decoration: none;
+    text-align: right;
+    padding: 10px;
+    border-radius: 15px;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.TopNav a:hover {
+    background-color: var(--HoverColor);
+    box-shadow: 2px 5px 3px var(--BackgroundColor);
+    cursor: pointer;
+}
+.TopNav a:active {
+    transform: translate(5px,2px);
+    background-color: var(--ActiveColor);
+    box-shadow: none;
+    scale: 0.95;
+}
+
+.TopNav li{
+    display: inline;
+}
+.UnderLine {
+    width: 100%;
+    height: 10px;
+    border-bottom: 2px solid var(--HoverColor);
+}
