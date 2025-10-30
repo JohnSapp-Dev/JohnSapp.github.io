@@ -4,15 +4,15 @@
 }
 
 .TopNav {
-    position: fixed;
-    top: 0;
-    left: 0;
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*left: 0;*/
     margin: 0;
     display: inline-grid;
     background-color: var(--NavColor);
     width: 100%;
     height: auto;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr auto;
     text-align: center;
     align-items: center;
     justify-items: center;
