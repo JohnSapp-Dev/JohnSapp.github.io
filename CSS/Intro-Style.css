@@ -1,9 +1,18 @@
 :root{
-
+    --ResumeColor: #2b303c;
 }
 
 .IntroContainer {
     margin: 50px;
+}
+
+.Outline {
+    border: 1px solid var(--TextColor);
+    border-radius: 10px;
+    margin: 15px;
+    /*padding: 10px;*/
+    background-color: var(--ResumeColor);
+    min-height: 450px;
 }
 
 .ProfilePicture {
@@ -11,12 +20,54 @@
     height: 300px;
     margin-right: 30px;
     margin-bottom: 30px;
-    display: flex;
-    float: left;
+    grid-column-start: 1;
+    grid-row-start: 1;
 }
 
 .IntroContainer p {
     color: var(--TextColor);
     font-size: 20px;
+}
 
+.floatLeft {
+    display: flex;
+    float: left;
+}
+.ImageSide {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px auto;
+    max-width: 300px;
+    margin-right: 30px;
+}
+
+.ImageSide i {
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-items: center;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.ImageSide ul {
+    display: grid;
+    width: 200px;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    margin-left: 30px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+i {
+    font-size: 40px;
+    color: var(--TextColor);
+    font-weight: 100
+}
+
+i:hover {
+    color: var(--ActiveColor);
 }
