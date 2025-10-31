@@ -1,6 +1,5 @@
 :root {
     --HoverColor: #003565;
-    --ResumeColor: #2b303c;
 }
 
 /*.Offset {*/
@@ -20,10 +19,9 @@
 /*}*/
 
 .Outline {
-    border: 1px solid var(--TextColor);
+    border: 1px solid white;
     border-radius: 10px;
     margin: 15px;
-    background-color: var(--ResumeColor);
 }
 
 .ResumeHeader {
