@@ -1,0 +1,22 @@
+:root{
+
+}
+
+.IntroContainer {
+    margin: 50px;
+}
+
+.ProfilePicture {
+    width: 300px;
+    height: 300px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    float: left;
+}
+
+.IntroContainer p {
+    color: var(--TextColor);
+    font-size: 20px;
+
+}
